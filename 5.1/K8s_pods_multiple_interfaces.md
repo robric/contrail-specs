@@ -433,7 +433,7 @@ kind: NetworkAttachmentDefinition
 metadata:
   name: network-a
   annotations:
-    "opencontrail.org/cidr" : ['10.1.1.0/24']
+    "opencontrail.org/cidr" : "10.1.1.0/24"
     "opencontrail.org/ip_fabric_snat" : False
     "opencontrail.org/ip_fabric_forwarding" : True
 spec:
